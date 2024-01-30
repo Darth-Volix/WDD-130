@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+}
+.box{
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+    width: 35%;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h3{
+    text-align: center;
+    color:white;
+}
+.list{
+    text-align: left;
+    font-weight: bolder;
+    margin: 0 auto;
+    width: 25%;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    
+}
