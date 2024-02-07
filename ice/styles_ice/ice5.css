@@ -1,15 +1,23 @@
 body{
     margin: 0;
-}
-main{
     background-color: grey;
 }
 header{
-    display: grid;
-    justify-content: center;
+    text-align: center;
+    display: block;
+}
+.hero-image{
+    width: 100%;
 }
 .rounded-image{
     border-radius: 50%;
     width: 300px;
-    border: 10px solid #555;
+    border: 20px solid #555;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#circlebox{
+    text-align: center;
 }
