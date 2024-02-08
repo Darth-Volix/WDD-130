@@ -2,7 +2,8 @@
 
 body{
     background-color: white;
-    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-size: 22px;
     margin: 0;
     padding: 0;
 }
@@ -19,14 +20,40 @@ body{
 
 header{
     background-color: #020E1F;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #6A7583;
 }
 
 .logo{
     width: 80px;
 }
 
+#logo-link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+h2{
+    margin: 0;
 }
 
 h4{
@@ -41,6 +68,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -50,12 +78,19 @@ nav a:hover{
 
 .home-title{
     color: black;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .book{
     background-color: #020E1F;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -67,28 +102,39 @@ nav a:hover{
     background-color: #6A7583;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
-    background-color: #6A7583;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .msg{
-    background-color: #020E1F
+    background-color: #020E1F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: white;
+    font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
 .msg p{
     color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #020E1F;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -107,6 +153,10 @@ footer p a:hover{
 footer a:hover{
     background-color: #6A7583;
     color: white;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 #hero-msg h1{
@@ -128,4 +178,12 @@ footer a:hover{
 
 main section{
     text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.mountains{
+    margin: 100px 0;
 }
