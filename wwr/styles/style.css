@@ -245,7 +245,7 @@ footer .social img{
     grid-column: 3/5;
     grid-row: 2/3;
     background-color: #020E1F;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 #rivers-hero-msg h1{
@@ -253,6 +253,35 @@ footer .social img{
     color: white;
 }
 
+.rivers-content{
+    background-color: #6A7583;
+    color: white;
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px #020E1F;
+}
+
+.rivers_header{
+    background-color: #020E1F;
+    color: white;
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.95;
+    box-shadow: 5px 5px 10px #020E1F;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+.rivers-paragraph{
+    background-color: #020E1F;
+    padding: 15px;
+    margin-top: 15px;
+    opacity: .95;
+    box-shadow: 5px 5px 10px #020E1F;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
 
 .button-box{
     text-align: center;
