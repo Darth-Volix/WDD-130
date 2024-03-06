@@ -1,0 +1,40 @@
+
+body{
+    background-color: black;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.card img {
+  width: 100%;
+}
+
+.header{
+    color: black;
+}
+
+.card-content {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.date {
+   font-size: small;
+   color: blue;
+}
+
+.stats {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    color: white;
+}
+
+  
