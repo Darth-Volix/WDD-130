@@ -39,7 +39,8 @@ body{
   background-color: blue;
   color: white;
   font-size: 0.9em;
-  text-align: center
+  text-align: center;
+  overflow-wrap: break-word;
 }
 
 .stats-grid-item{
