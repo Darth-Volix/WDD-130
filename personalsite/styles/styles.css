@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Libre+Baskerville:wght@700&display=swap');
+
+body{
+    background-color: white;
+    font-family: "Chivo", Helvetica, sans-serif;;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #37393A;
+    font-family: "Libre Baskerville", "Chivo", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav{
+    background-color: #37393A;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #367F9D;
+    color: white;
+}
+
+footer{
+    background-color: #37393A;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+    background-color: #367F9D;
+    color: white;
+}
+
+.social{
+    padding-top: 15px;
+}
