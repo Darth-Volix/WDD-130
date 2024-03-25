@@ -93,6 +93,14 @@ nav a:hover{
     row-gap: 75px;
 }
 
+.subpage-grid{
+    display: grid;
+    padding: 75px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 75px;
+    row-gap: 75px;
+}
+
 #headshot-image{
     grid-column: 1/2;
     grid-row: 1/3;
@@ -170,6 +178,89 @@ nav a:hover{
     grid-column: 3/4;
     grid-row: 3/5;
     margin-top: 75px;
+    box-shadow: 5px 5px 10px #020E1F;
+    border: solid black;
+}
+
+#cse110-header{
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: #367F9D;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Libre Baskerville", "Chivo", Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px #020E1F;
+    border: solid black;
+}
+
+#cse110-paragraph{
+    grid-column: 1/3;
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #367F9D;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    line-height: 2;
+    font-family: "Chivo", Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px #020E1F;
+    border: solid black;
+}
+
+#python-image{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    margin-top: 120px;
+    justify-self: center;
+    box-shadow: 5px 5px 10px #020E1F;
+    border: solid black;
+}
+
+#wdd130-header{
+    grid-column: 3/4;
+    grid-row: 3;
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+    background-color: #367F9D;
+    color: white;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Libre Baskerville", "Chivo", Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px #020E1F;
+    border: solid black;
+}
+
+#wdd130-paragraph{
+    grid-column: 3/4;
+    grid-row: 4;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: #367F9D;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    line-height: 2;
+    font-family: "Chivo", Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px #020E1F;
+    border: solid black;
+}
+
+#wdd130-image{
+    grid-column: 1/3;
+    grid-row: 3/6;
+    height: 100%;
+    width: 100%;
     box-shadow: 5px 5px 10px #020E1F;
     border: solid black;
 }
